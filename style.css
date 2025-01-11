@@ -17,6 +17,15 @@
   .all-margin{
     margin: 20px 160px;
   }
+
+  .button-common-hover:hover{
+
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+    transition: 0.7s;
+}
+
 /* share style end */
 
 /* header style start */
@@ -49,5 +58,43 @@
     background-color: #006A50;
     transition: 0.7s;
 }
+
+.banner-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#C6E4D6 ;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+banner-content{
+    width: 622px;
+    height: 326px;
+    display: flex;
+    gap: 5px;
+    
+}
+.banner-content h4{
+    font-size: 24px;
+    color:rgba(14, 14, 14, 0.5) ;
+    padding-bottom: 8px;
+}
+.banner-content h2{
+    font-size: 56px;
+    color: #0E0E0E ;
+    text-align: start;
+    padding-bottom: 20px;
+}
+.banner-content button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color:#FFFFFF ;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+
 
 /* header style end */
