@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* share style start*/
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+  
+  body a{
+    text-decoration: none;
+  }
+
+  .all-margin{
+    margin: 20px 160px;
+  }
+/* share style end */
+
+/* header style start */
+
+.nav-style{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-style h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0E0E0E;
+}
+.nav-style button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+
+}
+.nav-style button:hover{
+    color: #FFFFFF;
+    background-color: #006A50;
+    transition: 0.7s;
+}
+
+/* header style end */
