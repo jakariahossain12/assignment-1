@@ -8,6 +8,7 @@
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
     font-style: normal;
+    background-color: #F1F1F3;
   }
   
   body a{
@@ -178,4 +179,31 @@ padding: 20px 0 0 20px;
 /* Future section style end*/
 
 
-/* main style start */
+/* recent news section start*/
+
+.news{
+    margin-bottom: 30px;
+}
+.news h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+}
+.news p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+/* recent news section end*/
+
+
+
+
+
+
+
+
+
+/* main style end */
