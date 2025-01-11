@@ -96,5 +96,86 @@ banner-content{
     border: 1px solid #006A50;
 }
 
-
 /* header style end */
+
+
+/* main style start */
+
+/* Future section style start*/
+.Future{
+    display: flex;
+    flex-direction: column;
+    height: 509px;
+    margin-top: 70px;
+    
+}
+
+
+
+.future-content h1{
+   font-size: 40px;
+   font-weight: 800;
+   color: #0E0E0E;
+   margin-bottom: 15px;
+   
+
+}
+.future-content p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+   margin-bottom: 40px;
+}
+.future-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-item-1{
+width: 370px;
+height: 280px;
+background-color: rgba(84, 144, 245, 0.2);
+border-radius: 16px;
+padding: 20px 0 0 20px;
+}
+
+.future-item-1 h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 20px 0;
+}
+.future-item-1 p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 20px;
+}
+.future-item-1 button{
+    padding: 11px 20px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border: 1px solid #5490F5;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.box2{
+    background-color: #C6E4D6;
+}
+.box3{
+    background-color: #F7EBCF;
+}
+.future-item-1 button:hover{
+
+    color: #5490F5;
+    background-color: #FFFFFF;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+/* Future section style end*/
+
+
+/* main style start */
